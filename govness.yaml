@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "pe-servicios-digitales.quechua-spanish-translation"
+name: "Quechua–Spanish translation model"
+type: "model"
+version: "0.4.0"
+summary: "Translation model between Southern Quechua and Spanish for public-service notices."
+description: "A translation model tuned on public notices and health leaflets, with a human-review step recommended for anything legally binding."
+publisher:
+  environment: "pe-servicios-digitales"
+  body: "Agencia de Servicios Digitales del Perú"
+languages: ["qu", "es"]
+license: "Apache-2.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/quechua-spanish-translation"
+domains: ["digital-services", "citizen-engagement"]
